@@ -11183,3 +11183,12 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-03-29 20:12:19,521:INFO:Plot type: pipeline
 2025-03-29 20:12:19,615:INFO:Visual Rendered Successfully
 2025-03-29 20:12:19,766:INFO:plot_model() successfully completed......................................
+2025-03-29 20:56:05,630:WARNING:d:\Main\00_수업\2025_1_AI-ME (Graduate)\2_강의자료_작성중\AI-ME-Practice\..venv\Lib\site-packages\sklearn\model_selection\_split.py:737: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+  warnings.warn(
+
+2025-03-29 20:58:28,011:WARNING:d:\Main\00_수업\2025_1_AI-ME (Graduate)\2_강의자료_작성중\AI-ME-Practice\..venv\Lib\site-packages\sklearn\model_selection\_split.py:737: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+  warnings.warn(
+
+2025-03-29 21:01:06,006:WARNING:d:\Main\00_수업\2025_1_AI-ME (Graduate)\2_강의자료_작성중\AI-ME-Practice\..venv\Lib\site-packages\sklearn\model_selection\_split.py:737: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+  warnings.warn(
+
