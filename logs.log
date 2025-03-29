@@ -6099,3 +6099,24 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2025-03-29 20:00:30,313:INFO:(640, 13)
 2025-03-29 20:00:30,313:INFO:assign_model() successfully completed......................................
 2025-03-29 20:02:24,918:INFO:Initializing assign_model()
+2025-03-29 20:02:24,918:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000002AD698F0B50>, model=KMeans(n_clusters=5, random_state=123), transformation=False, score=True, verbose=True)
+2025-03-29 20:02:24,919:INFO:Checking exceptions
+2025-03-29 20:02:24,919:INFO:Determining Trained Model
+2025-03-29 20:02:24,919:INFO:Trained Model : K-Means Clustering
+2025-03-29 20:02:24,919:INFO:Copying data
+2025-03-29 20:02:24,921:INFO:(640, 13)
+2025-03-29 20:02:24,921:INFO:assign_model() successfully completed......................................
+2025-03-29 20:04:20,552:INFO:Initializing assign_model()
+2025-03-29 20:04:20,552:INFO:assign_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000002AD698F0B50>, model=KMeans(n_clusters=5, random_state=123), transformation=False, score=True, verbose=True)
+2025-03-29 20:04:20,554:INFO:Checking exceptions
+2025-03-29 20:04:20,554:INFO:Determining Trained Model
+2025-03-29 20:04:20,554:INFO:Trained Model : K-Means Clustering
+2025-03-29 20:04:20,554:INFO:Copying data
+2025-03-29 20:04:20,556:INFO:(640, 13)
+2025-03-29 20:04:20,556:INFO:assign_model() successfully completed......................................
+2025-03-29 20:04:43,421:INFO:Initializing predict_model()
+2025-03-29 20:04:43,421:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000002AD698F0B50>, estimator=KMeans(n_clusters=5, random_state=123), ml_usecase=None)
+2025-03-29 20:04:57,046:INFO:Initializing predict_model()
+2025-03-29 20:04:57,046:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000002AD698F0B50>, estimator=KMeans(n_clusters=5, random_state=123), ml_usecase=None)
+2025-03-29 20:05:02,641:INFO:Initializing predict_model()
+2025-03-29 20:05:02,642:INFO:predict_model(self=<pycaret.clustering.oop.ClusteringExperiment object at 0x000002AD698F0B50>, estimator=KMeans(n_clusters=5, random_state=123), ml_usecase=None)
