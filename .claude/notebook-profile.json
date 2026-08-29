@@ -24,7 +24,8 @@
     "outline": "md/practice_outline_ref.md",
     "slides_glob": "lecture_notes/*.pdf",
     "authority": "slides",
-    "authority_note": "강의 슬라이드(PDF)가 원본이자 최종 권위다. md/ 의 두 문서는 학부 과목(02_ML_Undergraduate)에서 가져온 참고용 요약본이라 회차 번호(Practice NN, Lec NN)와 일부 컨벤션이 이 과목과 다르다. 특히 손실함수의 상수 2 처리가 정반대다 — 요약본은 '2를 rho 에 흡수', 이 과목은 'J 정의에 1/2 을 명시'. 충돌 시 PDF 를 따르고 불일치 사실을 리포트에 남긴다."
+    "authority_note": "강의 슬라이드(PDF)가 원본이자 최종 권위다. md/ 의 두 문서는 학부 과목(02_ML_Undergraduate)에서 가져온 참고용 요약본이라 회차 번호(Practice NN, Lec NN)와 일부 컨벤션이 이 과목과 다르다. 특히 손실함수의 상수 2 처리가 정반대다 — 요약본은 '2를 rho 에 흡수', 이 과목은 'J 정의에 1/2 을 명시'. 충돌 시 PDF 를 따르고 불일치 사실을 리포트에 남긴다.",
+    "coverage": "lecture_notes/ 에는 현재 PDF 1편(Ch1-ML 1_Linear Regression, Practice01 대응)뿐이다. Practice02~13 은 대응하는 강의 슬라이드가 없다 — Practice13(RNN) 명세 작성 중 실측 확인(2026-08-29). 이 범위의 회차는 authority:\"slides\" 전제가 성립하지 않으므로, consistency-verifier 는 대조할 자료가 없다는 사실을 명시하고 '정합성 미검증'으로 보고해야 한다. 슬라이드가 추가되면 이 필드를 갱신하고 해당 회차를 재검증할 것."
   },
   "execution": {
     "python": "python",

@@ -396,7 +396,9 @@ Anaconda base 환경에서 torch 와 MKL 이 각각 `libiomp5md.dll` 을 올려 
 
 ## Notebook Generator Scripts
 
-- `_gen_p{NN}.py` (실습) / `_gen_hw{NN}.py` (과제) 형태의 generator script 로 노트북을 생성한다.
-  `.ipynb` 를 직접 편집하지 않는다
+- `gen/p{NN}.py` (실습) / `gen/hw{NN}.py` (과제) 형태의 generator script 로 노트북을 생성한다.
+  `.ipynb` 를 직접 편집하지 않는다. **generator 는 과목 루트에서 실행한다** — `python gen/p13.py`.
+  `gen/` 안에서 실행하면 노트북이 엉뚱한 자리에 생긴다
 - 생성 후 `jupyter nbconvert --to notebook --execute --inplace` 로 전 셀 실행 검증한다
-- 검증이 끝나고 추가 수정이 없다고 확인되면 `_gen_*.py` 를 삭제한다
+- **이 과목은 generator script 를 삭제하지 않고 `gen/` 에 남겨 둔다** (p01~p13 전부 보존됨).
+  다음 개정 때 참고할 근거이자, 노트북과 generator 가 항상 1:1로 대응해야 한다는 원칙 때문이다
