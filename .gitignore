@@ -1,9 +1,10 @@
 .DS_Store
 .venv/
-..venv/
+.omc/
 logs.log
-data/MNIST/
-data/cifar-10-batches-py
-data/cifar-10-batches-py/
-data/cifar-10-python.tar.gz
+build/
+__pycache__/
+.ipynb_checkpoints/
+*.bak
 data/
+HW/

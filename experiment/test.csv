@@ -1,2 +1,0 @@
-,act,optim,lr,batch_size,exp_name
-0,sigmoid,sgd,0.01,128,test
