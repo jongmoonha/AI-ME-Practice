@@ -9,3 +9,11 @@ __pycache__/
 data/*
 !data/kospi.csv
 HW/
+
+# 클로드/하네스 작업 파일 — 학생 배포 저장소에 올리지 않는다
+.claude/
+CLAUDE.md
+md/
+gen/
+tools/
+.vscode/
